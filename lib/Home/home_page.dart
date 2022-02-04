@@ -1,6 +1,7 @@
 import 'package:fancy_bottom_navigation/fancy_bottom_navigation.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:newnextbase/Home/last_Screen.dart';
 import 'package:newnextbase/library_page.dart';
 import 'package:newnextbase/list_page.dart';
 import 'package:newnextbase/video_player.dart';
@@ -108,4 +109,6 @@ _getPage(int page) {
       return HomeScreen();
     case 1:
       return ListPage();
+    case 2:
+      return LastScreen();
   }}
